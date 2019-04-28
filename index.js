@@ -3,6 +3,7 @@ const graphqlHTTP = require('express-graphql');
 const { buildSchema } = require('graphql');
 
 //
+//
 const schema = buildSchema(`
   type Produto {
     id: String!
